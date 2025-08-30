@@ -598,3 +598,60 @@ button:active {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 375px) {
+    .flower {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .sunflower {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .center {
+        width: 100px;
+        height: 100px;
+        top: 35%;
+    }
+    
+    .petal {
+        width: 25px;
+        height: 60px;
+    }
+    
+    .photo-frame {
+        width: 130px;
+        height: 130px;
+    }
+}
+  
+@media (max-width: 320px) {
+    .flower {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .sunflower {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .center {
+        width: 100px;
+        height: 100px;
+        top: 35%;
+    }
+    
+    .petal {
+        width: 25px;
+        height: 60px;
+    }
+    
+    .photo-frame {
+        width: 130px;
+        height: 130px;
+    }
+}
+  
