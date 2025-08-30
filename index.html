@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Digital Garden Just for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="garden-container">
+        <!-- Main flower section -->
+        <div class="flower-container">
+            <div class="flower" id="flower">
+                <!-- Flower bud that will bloom -->
+                <div class="bud" id="bud"></div>
+                
+                <!-- Sunflower parts (hidden initially) -->
+                <div class="sunflower hidden" id="sunflower">
+                    <div class="center"></div>
+                    <!-- 12 petals around the center -->
+                    <div class="petal petal-1"></div>
+                    <div class="petal petal-2"></div>
+                    <div class="petal petal-3"></div>
+                    <div class="petal petal-4"></div>
+                    <div class="petal petal-5"></div>
+                    <div class="petal petal-6"></div>
+                    <div class="petal petal-7"></div>
+                    <div class="petal petal-8"></div>
+                    <div class="petal petal-9"></div>
+                    <div class="petal petal-10"></div>
+                    <div class="petal petal-11"></div>
+                    <div class="petal petal-12"></div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <!-- Falling petals container -->
+        <div class="petals-container" id="petals-container"></div>
+        
+        <!-- Butterflies and bees container -->
+        <div class="insects-container" id="insects-container"></div>
+        
+        <!-- Photo gallery section -->
+        <div class="gallery-container hidden" id="gallery-container">
+            <h2>Our Memories</h2>
+            <div class="gallery">
+                <!-- Photo placeholders - replace src with actual images -->
+                <div class="photo-frame">
+                    <img src="assets/pic1.jpg" alt="Memory 1">
+                    <div class="caption">sarap</div>
+                </div>
+                <div class="photo-frame">
+                    <img src="assets/pic2.jpg" alt="Memory 2">
+                    <div class="caption">si nico nico nii pala to e</div>
+                </div>
+                <div class="photo-frame">
+                    <img src="assets/pic3.jpg" alt="Memory 3">
+                    <div class="caption">nagpapic aq sa artista</div>
+                </div>
+                <div class="photo-frame">
+                    <img src="assets/pic4.jpg" alt="Memory 4">
+                    <div class="caption">gala with kids</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pick flower button -->
+        <div class="button-container hidden" id="button-container">
+            <button id="pick-flower">See message 🌻</button>
+        </div>
+        
+        <!-- Digital bouquet card (hidden initially) -->
+        <div class="bouquet-card hidden" id="bouquet-card">
+            <div class="card-content">
+                <div class="glowing-heart">❤️</div>
+                <h2>To Glen Jarine</h2>
+                <p>Thank you for being the most supportive person in my life. Sobrang saya ko kasi i have someone like you na nasa likod ko palagi sa mga ginagawa ko sa buhay. Maraming salamat, baby. Andito lang din ako palagi para sayo. Sorry hindi tayo okay nung natanggap mo 'to. I love you so much. </p>
+                <button id="close-card">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message popup for petals and insects -->
+    <div class="message-popup hidden" id="message-popup">
+        <div class="popup-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
